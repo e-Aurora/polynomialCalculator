@@ -142,7 +142,7 @@ class Polynomial{
                 currentCoefficient1 = currentCoefficient1.next;
             }
             else {
-                result.polynomialCoefficients.add(currentCoefficient2.data);
+                result.polynomialCoefficients.add(-1*currentCoefficient2.data);
                 result.polynomialExponents.add(currentExponent2.data);
                 currentExponent2 = currentExponent2.next;
                 currentCoefficient2 = currentCoefficient2.next;
